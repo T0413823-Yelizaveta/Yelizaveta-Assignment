@@ -1,0 +1,3 @@
+C:/Users/liza1/Documents/Nottingham/453 C++/Game1/cmake-build-debug/CMakeFiles/Game1.dir
+C:/Users/liza1/Documents/Nottingham/453 C++/Game1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/liza1/Documents/Nottingham/453 C++/Game1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
