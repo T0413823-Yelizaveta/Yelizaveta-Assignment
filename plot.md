@@ -129,7 +129,6 @@ My classmate waved goodbye and left. I lingered for a moment, feeling a growing 
 
 However, something inside told me that the decisions I made tonight would have a far greater impact than I realized.
 
-
 **CHAPTER 3**
 
 [Survival Rate: 30%]
@@ -367,3 +366,62 @@ When Tom walked to the door to shoo away the unexpected visitor, Belle burst out
 Jack nodded and took her to his apartment.
 
 **The screen fades to black. Text appears: GAME OVER.**
+
+
+
+**Puzzle:**
+After Belle notices a lighter on the nightstand in her apartment, she decides to take a closer look. On one side of the lighter, there’s an unusual sentence engraved:
+*"Thick fOg Masked the entire land."*
+
+**Gameplay Mechanics:**
+The player is prompted to examine the sentence and answer the question: **[What could this sentence mean? Enter your guess below.]**
+
+**Solution:**
+The capital letters spell the name: **TOM.** The player must enter "TOM" (any case, e.g., "tom" or "Tom").
+
+**Outcome:**
+
+* **Correct Answer:**
+  The text appears: *"Achievement Unlocked: You discovered whose lighter it is."*
+  The player gains +10% survival chance, and Belle begins to suspect that Tom left this intentionally.
+* **Incorrect Answer:**
+  The text appears: *"That doesn’t seem right."* The story continues.
+
+---
+
+**Additional Puzzle: Hidden Compartment in the Closet**
+**Scene:**
+While in Tom’s apartment, Belle notices a hidden compartment in his closet. To unlock it, she must solve a number-based riddle engraved on the compartment:
+*"The day I met her."*
+
+**Solution:**
+The answer is: *14.02.2014* (Valentine’s Day).
+
+**Outcome:**
+
+* **Correct Answer:**
+  The text appears: *"[Correct Answer]"* The compartment opens, and inside, Belle finds an important item: **Tom’s diary,** which details his thoughts about her.
+* **Incorrect Answer:**
+  The compartment remains locked, and Belle finds nothing.
+
+---
+
+**Puzzle: Anagram on the Code Lock**
+**Scene:**
+When Belle tries to leave Tom’s apartment, she finds the door locked with a code lock. A clue is written on the lock:
+*"My favorite game PART. Only it has to be played backwards."*
+
+**Solution:**
+The answer is: **TRAP.** The player must enter this word to unlock the door.
+
+**Gameplay Mechanics:**
+If the player enters the correct answer, the story continues. If they fail...
+
+**Outcome:**
+
+* **Correct Answer:**
+  The story continues as Belle successfully opens the door.
+* **Incorrect Answer:**
+  The text appears: *"The lock remains closed, and brute force won’t work."* Belle exclaims: *"Why can’t I open this stupid door at a time like this?!"* She turns around, screams:
+  *"Ah!"*
+  **The screen fades to black. GAME OVER.**
