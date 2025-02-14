@@ -116,7 +116,7 @@ It was an old classmate. I excused myself and stepped outside, inhaling the cool
 
 "Yeah, it’s been ages!" I laughed. "What did you want to give me?"
 
-We talked for a bit before he handed me a small item—something I had lent him a long time ago and completely forgotten about. As we spoke, I couldn’t shake the eerie feeling that someone was watching us. Glancing up, I noticed a shadow in the window overlooking the street.
+We talked for a while, he wanted to light a cigarette on the street and asked if I had a lighter, but I didn't have one. I explained to him that I don't smoke at all and I don't have lighters at all, not even at home, before he handed me a small thing - something that I had borrowed a long time ago and had already forgotten about him As we spoke, I couldn’t shake the eerie feeling that someone was watching us. Glancing up, I noticed a shadow in the window overlooking the street.
 
 (Is someone watching us?)
 
@@ -128,3 +128,242 @@ My classmate waved goodbye and left. I lingered for a moment, feeling a growing 
 2. Go back inside and say goodbye to everyone, including him.
 
 However, something inside told me that the decisions I made tonight would have a far greater impact than I realized.
+
+
+**CHAPTER 3**
+
+[Survival Rate: 30%]
+
+Belle walked through the dark alley, her eyes straining to catch the faint glimmers of light from the lone streetlights. Their glow barely illuminated the cracked pavement beneath her feet. The wind carried the rustling sounds of trash stuck in the corners of buildings, amplifying the oppressive atmosphere. The gloom and emptiness of the street felt almost tangible, as if she were the only person left in the world. In the distance, a single streetlight flickered weakly, its dim glow barely enough to illuminate an old, rusty bench beneath it.
+
+(If choice: "Refused the soda")
+
+Belle felt a slight unease, as if something inside her wasn’t quite right. She tried to take a deep breath, but the anxiety only grew stronger.
+
+“— I just hope I can forget about those visions for one night,” Belle murmured under her breath, involuntarily recalling how strange Becky and Tom had acted at the party. Becky had asked far too many awkward questions, and Tom had been so distant, as if there was nothing left between them.
+
+She reached the intersection where she needed to turn into an even narrower alleyway. Its eerie stillness sent chills down her spine. Belle stopped, hesitating as she stared ahead.
+
+“What a creepy alley... I never realized how sinister it looks,” she whispered, suppressing a slight shiver.
+
+Belle cautiously looked back to ensure no one was following her.
+
+(If choice: "Refused the soda")
+
+She felt a weakness creeping into her legs. Quickly turning around to check how far she had walked, Belle turned her head forward again and saw Tom emerge from the shadows.
+
+Belle gasped sharply: “Ah!”
+
+**Screen fades to black.** **The words: GAME OVER.**
+
+---
+
+Main text:
+
+Something inside told her not to linger in this alley. Belle decided to change direction and quickly headed toward the 24-hour convenience store just around the corner. Stepping inside, she felt a slight sense of relief: the soft glow of the lights, the friendly face of the cashier, and the soothing music created a cozy atmosphere.
+
+“I need to buy something to calm myself down,” she muttered, approaching the shelves.
+
+[Choice: You can afford only 2 items. What would you like to buy?]
+
+1. **Hairpins**, to pin up her loose hair.
+2. **A bottle of water**, to refresh herself.
+3. **A flashlight**, to light her way, especially      with so many broken streetlights.
+
+**[ADD TO INVENTORY]**
+
+(If choice was "Water bottle" and "Flashlight" — Survival Rate: 5%.) (If choice was "Hairpins" and "Flashlight" — Survival Rate: 30%.) (If choice was "Hairpins" and "Water bottle" — Survival Rate: 50%.)
+
+After making her purchases and placing them in her bag, Belle decided to take a different route home — one that was brighter and more crowded.
+
+At home, in her bedroom, her eyes fell on a lighter sitting on her nightstand.
+
+“Hmm, I don’t remember buying this. And I haven’t invited any friends over. (With Tom being a smoker, we’re not close enough yet to hang out at each other’s places.) I must’ve bought it while drunk,” Belle muttered to herself, deciding not to dwell on it.
+
+The next two days passed peacefully. Belle was completely immersed in work. She hadn’t had time to clean her apartment since Friday or to meet anyone, not even Tom.
+
+(Belle’s thoughts: Tom is understanding. He never demands attention when I’m so busy with work.)
+
+On the third day, someone rang her doorbell. Belle frowned, confused — she hadn’t ordered anything. Opening the door, she saw a deliveryman holding a pizza box.
+
+“A pizza delivery for your address,” he said.
+
+“Who ordered it?” Belle asked.
+
+“— Unfortunately, I don’t know,” he replied.
+
+“— That’s strange. I didn’t order anything,” Belle said, narrowing her eyes at the box in his hands. “— Are you sure the address is correct?”
+
+“Absolutely. — Here, look,” the deliveryman showed her the receipt with her address on it. “— Maybe one of your friends decided to surprise you?”
+
+[Choice:]
+
+1. **Accept the pizza.** (If choice: "Accept the      pizza" — Survival Rate: 5%.)
+
+— Maybe it’s Tom trying to take care of me. He’s so thoughtful and sweet, even though we haven’t been together for very long. And I’m starving. How convenient!
+
+Belle placed the pizza box on the table, sat down, and began eating with delight. Her thoughts wandered to Tom and how nice it felt to have someone care for her, even if it was a little unexpected. Her body started to relax, and her hunger was satisfied.
+
+After finishing her meal, she stood up, but a wave of dizziness overcame her.
+
+“Something’s wrong...” she muttered, trying to steady herself on the edge of the table.
+
+**Screen fades to black. The words: GAME OVER.**
+
+2. **Refuse the pizza.**
+
+---
+
+Main text:
+
+(Survival Rate: 50%.) Belle pondered:
+
+“— This is odd. I didn’t order anything. Could someone have entered the wrong address? But my apartment is the last one on the floor, so it’s hard to believe anyone would make that mistake.”
+
+To change the atmosphere, she decided...
+
+[Choice:]
+
+1. **Work at the kitchen table.**
+2. **Go to the bathroom to freshen      up.**
+
+(If choice: "Bathroom" — Survival Rate: 1%.)
+
+Belle refreshed herself and felt her mind become clearer, ready to continue her tedious work. She worked late into the night. When the sun had long set, the only light in her apartment came from the desk lamp. Belle thought it was time to go to bed.
+
+Removing her everyday clothes, she put on her favorite pajamas: soft, cozy shorts and a T-shirt. Stretching, she turned off the desk lamp and approached her bed. Her eyes scanned the room, making sure everything was in its place.
+
+She was just about to climb into bed when a loud crash echoed behind her.
+
+Belle turned around sharply, then gasped: “Ah!”
+
+(Survival Rate: 50%.) Belle sat down at the kitchen table to work. A few minutes later, she caught something odd out of the corner of her eye. Turning her head, she saw in the mirror—which reflected the hallway—that someone was jiggling the doorknob.
+
+“— Kids again, Belle thought. Back in the day, we used to ring the doorbell and run away. Looks like their pranks have evolved.”
+
+Raising her voice, she shouted, “— WHO’S OUT THERE MESSING AROUND?!”
+
+The noise immediately stopped, and she heard nothing more. Deciding to ignore the incident, Belle returned to her work. She continued late into the night and eventually went to bed without even grabbing a snack.
+
+**CHAPTER 4**
+
+Several days passed, and Tom completely disappeared from sight. Belle tried calling him, but his phone remained unanswered. She wrote him messages on social media, but he didn’t even read them. Her worry grew. She asked friends if they’d seen him, tried to find out where he was last spotted, but no one knew anything.
+
+— Maybe something happened to him, and I’m in the dark, — Belle thought, unable to calm herself.
+
+Finally, she decided to go to his home to figure everything out.
+
+---
+
+She arrived at his building. Entering the lobby with a stranger who was unlocking the front door, Belle made her way up to the floor where his apartment was located. At his door, she knocked and tried calling him right there.
+
+— Tom, are you in there? Please open the door! — she called out.
+
+Ten minutes passed. She knocked again and even asked the neighbors if they’d seen Tom. However, there was complete silence behind the apartment door, and no one answered.
+
+[Reminder: Perhaps you’ll need something from your inventory? Choose an item for the protagonist to use.]
+
+**In Belle’s bag:**
+
+* A manicure set (including      scissors),
+* Keys to her apartment,
+* A wallet,
+* A makeup bag,
+* Pills prescribed by her doctor,
+* A bottle of water / Flashlight      / Hairpins (depending on the previous choice).
+
+  ---
+
+**If scissors, keys, wallet, makeup bag, pills, or bottle are chosen:**
+
+[Survival Rate: 5%]
+
+She couldn’t figure out how to get into the apartment. After another 10 minutes of fruitless attempts, Belle decided to leave. As she turned to walk away, she saw Tom at the end of the hallway.
+
+— What are you doing here? — he asked, approaching her.
+
+— I was worried about you, Tom. You disappeared, weren’t answering my calls or messages. I thought you were sick or something, — Belle explained.
+
+— Sorry, I’ve been busy. But come in, I’ll explain everything, — he said, unlocking his apartment door.
+
+Belle entered his apartment. When Tom turned on the lights, her gaze froze on the walls. They were covered with photographs of her — some taken before they even started dating and others afterward. Belle turned to him in horror.
+
+— Ah!
+
+**The screen fades to black.** **Text appears: GAME OVER.**
+
+---
+
+**If hairpins are chosen:**
+
+[Survival Rate: 50%]
+
+Belle remembered the hairpins she’d recently bought. They were small and convenient enough to try and pick the lock.
+
+— I know this isn’t right, but I’m worried about him. What if something happened to him and he can’t open the door? — she said to herself, hesitating.
+
+Determined, Belle inserted the hairpin into the lock. After a minute of struggling, the door clicked open, and she was able to enter.
+
+Stepping inside, she turned on the lights and froze in shock. The walls were covered with photographs of her, some taken even before they started dating. Horror washed over her, sending chills down her spine.
+
+— This can’t be real… — she whispered, scanning the photographs. Her hands trembled as fear took over.
+
+Suddenly, she heard footsteps outside the front door. Her heart raced, and dread consumed her. Belle began to piece together the events of the past week, coming to the terrifying realization that Tom had been stalking her.
+
+[Choice: Send a message for help to Becky or to her ex-boyfriend Jack?]
+
+---
+
+**If Becky is chosen:**
+
+[Survival Rate: 20%]
+
+Belle quickly typed a message: — Becky, I need help! Tom is a stalker. I’m at his place right now, and I don’t know what he might do to me. Please call the police.
+
+She hid in the closet, trembling with fear. A few moments later, Becky replied:
+
+— Are you sure? This sounds so strange… Are you imagining things? Alright, I’ll call the police.
+
+The closet became increasingly stifling. Belle felt fear gripping her throat. She heard footsteps approaching the closet.
+
+[Inventory: Manicure set, keys, wallet, makeup bag, pills, bottle, flashlight.]
+
+**If any item from the inventory is chosen:** Belle rummaged loudly through her bag. The jingling of keys echoed loudly. Suddenly, the closet doors were flung open.
+
+— Ah!
+
+**The screen fades to black.** **Text appears: GAME OVER.**
+
+---
+
+**If ex-boyfriend Jack is chosen:**
+
+[Survival Rate: 35%]
+
+Belle quickly typed a message: — Jack, I need your help! Tom is a stalker. I’m at his place, and I’m scared of what he might do.
+
+Seconds later, Jack replied: — Got it. I’ll figure something out.
+
+She hid in the closet, trying to stifle her panic. But the fear intensified with every approaching footstep.
+
+[Inventory: Manicure set, keys, wallet, makeup bag, pills, bottle, flashlight.]
+
+**If any item is chosen, except the bottle:** Belle rummaged loudly through her bag, trying to find something useful. The sound of keys jingling echoed through the room. Suddenly, the closet doors were flung open.
+
+— Ah!
+
+**The screen fades to black. Text appears: GAME OVER.**
+
+**If the bottle is chosen:**
+
+Belle found the bottle of water in her bag. She gripped it tightly, holding her breath. Hearing footsteps near the closet, she prepared herself. Suddenly, the doorbell rang. Tom paused.
+
+(Here’s my chance!) — Belle thought.
+
+When Tom walked to the door to shoo away the unexpected visitor, Belle burst out of the closet and struck him on the head with the bottle. She dashed out of the apartment and saw Jack standing by the door.
+
+— Jack, please help me! I’m too scared to go home alone, — she blurted out.
+
+Jack nodded and took her to his apartment.
+
+**The screen fades to black. Text appears: GAME OVER.**
