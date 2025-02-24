@@ -9,10 +9,18 @@ private:
     vector<string> items;  // list of items(only names)
 
 public:
-    void addItem(const string& itemName);   // Add item
-    void removeItem(const string& itemName); // Remove
-    bool hasItem(const string& itemName) const; // Check availability
-    void showItems() const;                    // output list items
+    //Methods
+    // Add item
+    void addItem(const string& itemName);
+
+    // Remove
+    void removeItem(const string& itemName);
+
+    // Check availability
+    bool hasItem(const string& itemName) const;
+
+    // output list items
+    void showItems() const;
 };
 
 class Player {
@@ -28,6 +36,16 @@ public:
 {
     cout << "Player Name: " << playerName << endl;
 }
+    // Methods for managing mental health
+    void increaseMentalHealth(int amount);
+    void decreaseMentalHealth(int damage);
+
+    // Methods for managing SurvivalRate
+    void increaseSurvivalRate(int amount);
+    void decreaseSurvivalRate(int amount);
+
+    // Check status
+    void checkStatus() const;
 };
 
 
