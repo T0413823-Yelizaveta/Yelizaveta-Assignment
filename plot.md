@@ -1,5 +1,7 @@
 **Chapter 1. Getting Ready for the Party**
 
+20.05.2014
+
 The clock on her phone read 18:45. There was just over an hour left before the party, and she had plenty of time to get ready. She stood in front of the mirror in her room, contemplating which look to choose. The atmosphere was calm, but thoughts about how the evening would go were already swirling in her mind. Her boyfriend would be there, her ex as well, and of course, her best friend. But for some reason, a slight unease was growing. (Anxiety: 10%)
 
 She sifted through her wardrobe. A tight black dress or a loose shirt with jeans? The decision could influence how people perceived her at the party. She decides...
@@ -25,7 +27,7 @@ Finishing with her outfit, she moved on to her hair. Should she curl it for extr
 
 Running her fingers through her hair, she checked her appearance one last time.
 
-A message alert sounded on her phone. It was from her boyfriend: *"Are you getting ready? I can't wait to see you."*
+A message alert sounded on her phone. (It was from her boyfriend,whom she started dating on Valentine's day: *"Are you getting ready? I can't wait to see you."*
 
 Something in the message made her feel slightly uneasy. Was there too much eagerness in it? She decides...
 
@@ -159,14 +161,85 @@ Belle gasped sharply: “Ah!”
 
 Main text:
 
-Something inside told her not to linger in this alley. Belle decided to change direction and quickly headed toward the 24-hour convenience store just around the corner. Stepping inside, she felt a slight sense of relief: the soft glow of the lights, the friendly face of the cashier, and the soothing music created a cozy atmosphere.
+## **First Encounter: The Talking Black Cat***(Alleyway after the party)*
+
+### **Starting Mental Health: `100%`**
+
+Belle walked through the dark alley, feeling **anxiety creeping into her veins**. The dim light from the streetlamps barely reached the ground, making the shadows **feel thicker, more alive**.
+
+Suddenly, a **black figure darted across her path**—a cat. But instead of disappearing into the darkness, it **stopped.**
+
+Belle froze. **Why did it stop?**
+
+The cat **turned its head toward her,** and its **eyes...**
+They were **too aware. Too human-like.**
+
+And then **it spoke.**
+
+**Cat (low, rasping voice):**
+— Worthless. Pathetic. Do you think anyone actually cares about you? **They laugh behind your back.**
+
+A shiver ran down Belle’s spine.
+**This… this isn’t real.**
+
+("Am I… am I losing my mind? Why am I hearing this?!")*
+
+The cat’s voice **scraped at her thoughts like claws on glass.**
+
+ **Cat (hissing):**
+— You're nothing. They only tolerate you. Even Tom.
+
+⚠ **[Player Choice:]**
+1/ **"You're just a cat. This isn't real."***( **+10% Mental Health**  → `mentalHealth = 110%`)*
+2/ **"No… I don’t want to hear this…"***( **-10% Mental Health**  → `mentalHealth = 90%`)*
+
+---
+
+### ** If Option 2 is Chosen...**
+
+The cat **contorts, twisting unnaturally,** as if its bones were breaking from the inside.
+**It stretches, growing taller, its limbs lengthening into something grotesquely human.**
+
+In front of Belle now stood **a monstrous humanoid with feline features**, its yellow eyes glowing in the dark.
+
+ **ATTACK!**
+
+Belle’s breath hitched, **the air around her thickened, pressing down like an invisible force.**
+*Her heart pounded so loudly she could hear it echoing in her ears.*
+
+**[Player Choice:]**
+
+* **Dodge (50% success)** → ( **No damage**).
+* **Fails to Dodge** → ( **-15% Mental Health**  → `mentalHealth = 75%`).
+
+**If she takes damage:**
+*Her throat tightens with fear, her lungs struggling to draw air.*
+**Darkness. A nightmare. A hallucination?**
+
+ **And then—it vanishes.**
+
+Belle **stumbles back, eyes darting around the alley.**
+**Nothing.**
+
+ *("Was that… in my head? But… I felt it. I KNOW I did.")*
+
+⚠ **On Screen:**`"Mental Health: 75%"`
+ **Her hands tremble. Her breathing is shallow.**
+
+She buries her face in her palms, **desperately trying to convince herself that it wasn’t real.**
+But… *then why does her skin still crawl with that icy sensation?
+
+
+
+
+ Belle decided to change direction and quickly headed toward the 24-hour convenience store just around the corner. Stepping inside, she felt a slight sense of relief: the soft glow of the lights, the friendly face of the cashier, and the soothing music created a cozy atmosphere.
 
 “I need to buy something to calm myself down,” she muttered, approaching the shelves.
 
 [Choice: You can afford only 2 items. What would you like to buy?]
 
 1. **Hairpins**, to pin up her loose hair.
-2. **A bottle of water**, to refresh herself.
+2. **A glass bottle of water**, to refresh herself.
 3. **A flashlight**, to light her way, especially      with so many broken streetlights.
 
 **[ADD TO INVENTORY]**
@@ -178,6 +251,38 @@ After making her purchases and placing them in her bag, Belle decided to take a 
 At home, in her bedroom, her eyes fell on a lighter sitting on her nightstand.
 
 “Hmm, I don’t remember buying this. And I haven’t invited any friends over. (With Tom being a smoker, we’re not close enough yet to hang out at each other’s places.) I must’ve bought it while drunk,” Belle muttered to herself, deciding not to dwell on it.
+
+
+
+(Puzzle:
+
+However, after some time, she decides to take a closer look. On one side of the lighter, there’s an unusual sentence engraved:
+
+"Thick fOg Masked the entire land."
+
+Gameplay Mechanics:
+
+The player is prompted to examine the sentence and answer the question: [What could this sentence mean? Enter your guess below.]
+
+Solution:
+
+The capital letters spell the name: TOM. The player must enter "TOM" (any case, e.g., "tom" or "Tom").
+
+Outcome:
+
+Correct Answer:
+
+The text appears: "Achievement Unlocked: You discovered whose lighter it is."
+
+The player gains +10% survival chance, and Belle begins to suspect that Tom left this intentionally.
+
+Incorrect Answer:
+
+The text appears: "That doesn’t seem right."
+
+The story continues.)
+
+
 
 The next two days passed peacefully. Belle was completely immersed in work. She hadn’t had time to clean her apartment since Friday or to meet anyone, not even Tom.
 
@@ -260,6 +365,56 @@ She arrived at his building. Entering the lobby with a stranger who was unlockin
 
 Ten minutes passed. She knocked again and even asked the neighbors if they’d seen Tom. However, there was complete silence behind the apartment door, and no one answered.
 
+
+
+## **Second Encounter: The Faceless Man***(Outside Tom's Apartment)*
+
+### **Current Mental Health: `75%`**
+
+Belle **presses the intercom button.**
+Silence.
+She takes a step back…
+
+And suddenly, **she notices a figure** standing in the dimly lit corridor.
+
+A **tall man in a long coat**.
+But… **he has no face.**
+Just **a void.**
+
+ **Faceless Man (voice inside her head):**
+— Are you still pretending? You know how this ends. **It all ends tonight.**
+
+ *("This isn’t real… This isn’t real… But…")*
+
+Belle’s fingers **clench involuntarily into fists.**
+
+⚠ **[Player Choice:]**
+1/ **"You're not real. This is my mind playing tricks."***( **+10% Mental Health**  → `mentalHealth = 85%`)*
+2/ **"Who are you?! What do you want?!"***( **-10% Mental Health**  → `mentalHealth = 65%`)*
+
+---
+
+### ** If Option 2 is Chosen...**
+
+ **The figure suddenly jerks forward, disappearing and reappearing right in front of Belle.**
+
+**She doesn’t even have time to scream—his hands are already around her throat.**
+
+ **ATTACK!**
+
+* **Shove him away (60% success)** → ( **+5% Mental Health**  → `mentalHealth = 70%`).
+* **Fails to break free** → ( **-20% Mental Health**  → `mentalHealth = 45%`).
+
+**After the battle:**
+ **The entity vanishes.**
+But Belle **still feels the ghost of his grip on her neck.**
+
+ *("What is happening to me?! I imagined that? Then why can I still FEEL it?!")*
+
+⚠ **On Screen:**`"Mental Health: 45%"`
+
+
+
 [Reminder: Perhaps you’ll need something from your inventory? Choose an item for the protagonist to use.]
 
 **In Belle’s bag:**
@@ -307,6 +462,65 @@ Stepping inside, she turned on the lights and froze in shock. The walls were cov
 
 — This can’t be real… — she whispered, scanning the photographs. Her hands trembled as fear took over.
 
+
+
+(Additional Puzzle: Hidden Compartment in the Closet
+
+Scene:
+
+While in Tom’s apartment, Belle notices a hidden compartment in his closet. To unlock it, she must solve a number-based riddle engraved on the compartment:
+
+"The day I met her."
+
+Solution:
+
+The answer is: 14.02.2014 (Valentine’s Day).
+
+Outcome:
+
+Correct Answer:
+
+The text appears: "[Correct Answer]" The compartment opens, and inside, Belle finds an important item: Tom’s diary, which details his thoughts about her.
+
+Incorrect Answer:
+
+The compartment remains locked, and Belle finds nothing.)
+
+
+
+## **Third Encounter: The Weeping Woman in the Mirror***(Inside Tom’s Apartment)*
+
+### **Current Mental Health: `45%`**
+
+Belle examines **the cracked mirror** in the corner of the room.
+But… her reflection **isn’t mirroring her movements.**
+
+Instead… **it begins to cry.**
+
+ **Reflection:**
+— Why do you keep going? You already know how this ends.
+
+Belle **feels her stomach twist.**
+
+⚠ **[Player Choice:]**
+1/ **"This isn’t real! You’re not me!"***( **+10% Mental Health**  → `mentalHealth = 55%`)*
+2/ **"No… no… I don’t want to see this…"***( **-10% Mental Health**  → `mentalHealth = 35%`)*
+
+---
+
+### ** If Option 2 is Chosen...**
+
+ **The reflection smirks… and steps out of the mirror.**
+
+ **ATTACK!**
+
+* **Smash the mirror (75% success)** → ( **+5% Mental Health**  → `mentalHealth = 40%`).
+* **Fails and loses consciousness** → ( **-25% Mental Health**  → `mentalHealth = 10%`).
+
+⚠ **On Screen:**`"Mental Health: 10%"`
+ *"My hands won’t stop shaking… My head feels heavy… I… I’m losing myself..."*
+
+
 Suddenly, she heard footsteps outside the front door. Her heart raced, and dread consumed her. Belle began to piece together the events of the past week, coming to the terrifying realization that Tom had been stalking her.
 
 [Choice: Send a message for help to Becky or to her ex-boyfriend Jack?]
@@ -325,9 +539,7 @@ She hid in the closet, trembling with fear. A few moments later, Becky replied:
 
 The closet became increasingly stifling. Belle felt fear gripping her throat. She heard footsteps approaching the closet.
 
-[Inventory: Manicure set, keys, wallet, makeup bag, pills, bottle, flashlight.]
-
-**If any item from the inventory is chosen:** Belle rummaged loudly through her bag. The jingling of keys echoed loudly. Suddenly, the closet doors were flung open.
+ Belle rummaged loudly through her bag. The jingling of keys echoed loudly. Suddenly, the closet doors were flung open.
 
 — Ah!
 
@@ -359,69 +571,43 @@ Belle found the bottle of water in her bag. She gripped it tightly, holding her 
 
 (Here’s my chance!) — Belle thought.
 
-When Tom walked to the door to shoo away the unexpected visitor, Belle burst out of the closet and struck him on the head with the bottle. She dashed out of the apartment and saw Jack standing by the door.
+When Tom walked to the door to shoo away the unexpected visitor, Belle burst out of the closet and struck him on the head with the bottle.
+
+
+(Puzzle: Anagram on the Code Lock
+
+Scene:
+
+When Belle tries to leave Tom’s apartment, she finds the door locked with a code lock. A clue is written on the lock:
+
+"My favorite game  is “PART”. Only it has to be played backwards."
+
+Solution:
+
+The answer is: TRAP. The player must enter this word to unlock the door.
+
+Gameplay Mechanics:
+
+If the player enters the correct answer, the story continues. If they fail...
+
+Outcome:
+
+Correct Answer:
+
+The story continues as Belle successfully opens the door.
+
+Incorrect Answer:
+
+The text appears: "The lock remains closed, and brute force won’t work." Belle exclaims: "Why can’t I open this stupid door at a time like this?!" She turns around, screams:)
+
+"Ah!"
+
+The screen fades to black. GAME OVER.)
+
+ She dashed out of the apartment and saw Jack standing by the door.
 
 — Jack, please help me! I’m too scared to go home alone, — she blurted out.
 
 Jack nodded and took her to his apartment.
 
 **The screen fades to black. Text appears: GAME OVER.**
-
-
-
-**Puzzle:**
-After Belle notices a lighter on the nightstand in her apartment, she decides to take a closer look. On one side of the lighter, there’s an unusual sentence engraved:
-*"Thick fOg Masked the entire land."*
-
-**Gameplay Mechanics:**
-The player is prompted to examine the sentence and answer the question: **[What could this sentence mean? Enter your guess below.]**
-
-**Solution:**
-The capital letters spell the name: **TOM.** The player must enter "TOM" (any case, e.g., "tom" or "Tom").
-
-**Outcome:**
-
-* **Correct Answer:**
-  The text appears: *"Achievement Unlocked: You discovered whose lighter it is."*
-  The player gains +10% survival chance, and Belle begins to suspect that Tom left this intentionally.
-* **Incorrect Answer:**
-  The text appears: *"That doesn’t seem right."* The story continues.
-
----
-
-**Additional Puzzle: Hidden Compartment in the Closet**
-**Scene:**
-While in Tom’s apartment, Belle notices a hidden compartment in his closet. To unlock it, she must solve a number-based riddle engraved on the compartment:
-*"The day I met her."*
-
-**Solution:**
-The answer is: *14.02.2014* (Valentine’s Day).
-
-**Outcome:**
-
-* **Correct Answer:**
-  The text appears: *"[Correct Answer]"* The compartment opens, and inside, Belle finds an important item: **Tom’s diary,** which details his thoughts about her.
-* **Incorrect Answer:**
-  The compartment remains locked, and Belle finds nothing.
-
----
-
-**Puzzle: Anagram on the Code Lock**
-**Scene:**
-When Belle tries to leave Tom’s apartment, she finds the door locked with a code lock. A clue is written on the lock:
-*"My favorite game PART. Only it has to be played backwards."*
-
-**Solution:**
-The answer is: **TRAP.** The player must enter this word to unlock the door.
-
-**Gameplay Mechanics:**
-If the player enters the correct answer, the story continues. If they fail...
-
-**Outcome:**
-
-* **Correct Answer:**
-  The story continues as Belle successfully opens the door.
-* **Incorrect Answer:**
-  The text appears: *"The lock remains closed, and brute force won’t work."* Belle exclaims: *"Why can’t I open this stupid door at a time like this?!"* She turns around, screams:
-  *"Ah!"*
-  **The screen fades to black. GAME OVER.**
