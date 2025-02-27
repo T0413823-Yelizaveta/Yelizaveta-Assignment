@@ -52,34 +52,25 @@ public:
     }
 };
 
-class Player {
+class Combat {
 private:
-    string name;
-    int survivalRate;
+    int damage;
     int mentalHealth;
 
-    bool isAlive;
-    Inventory inventory;
-
 public:
-    Player(string PlayerName) {
-        name = PlayerName;
-        survivalRate = 100;
+    Combat() {
+        mentalHealth = 100;
+        damage = 0;
     }
 
-    string getName() {
-        return name;
-    }
-    int getmentalHealth() {
+
+    int getMentalHealth() const {
         return mentalHealth;
     }
-    int getSurvivalRate() {
-        return survivalRate;
+    int getDamage() const {
+        return damage;
     }
 
-    void sayHello() {
-        cout << "Hello my name is" << name<<"!"<< endl;
-    }
     //Methods for managing mental health
     void increaseMentalHealth(int amount) {
         mentalHealth += amount;
@@ -98,6 +89,47 @@ public:
             cout << "Mental health is descreased: " << mentalHealth << "%" << endl;
         }
     }
+
+
+    void takeDamage(int amount) {
+        damage += amount; // accumulated damage
+        decreaseMentalHealth(amount); // Damage reduces mental health
+        cout << "You got " << amount << " units of damae!\n";
+    }
+
+
+    bool isGameOver() const {
+        return mentalHealth < 10;
+    }
+
+};
+
+class Player {
+private:
+    string name;
+    int survivalRate;
+    bool isAlive;
+    Inventory inventory;
+    Combat combat;
+
+public:
+    Player(string PlayerName) {
+        name = PlayerName;
+        survivalRate = 100;
+    }
+
+    string getName() {
+        return name;
+    }
+
+    int getSurvivalRate() {
+        return survivalRate;
+    }
+
+    void sayHello() {
+        cout << "Hello my name is" << name<<"!"<< endl;
+    }
+
     // Methods for managing SurvivalRate
     void increaseSurvivalRate(int amount) {
         survivalRate += amount;
@@ -127,6 +159,10 @@ public:
         return inventory;
     }
 
+    Combat& getCombat() {
+        return combat;
+    }
+
 };
 
 
@@ -134,48 +170,44 @@ class Game {
 
 };
 
-class Choice {
-
-};
-
 class Event {
 
 };
 
+class Choice {
+private:
+    string choiceText;
+    int choiceNumber;
+
+public:
+    Choice(const string& text, int number) {
+        choiceText = text;
+        choiceNumber = number;
+    }
+    void showChoice() const {
+        cout<< choiceNumber<< "."<<choiceText<< endl;
+    }
+    int getChoiceNumber() const {
+        return choiceNumber;
+    }
+};
 
 class Scene {
 private:
-
-
-public:
-    Scene(string desc);
     string description;
-
-
-};
-
-
-class CombatScene : public Scene {
-private:
-    int damage;
-    int mentalHealth;
-
 public:
-    CombatScene(string desc, int dmg, int mentalHealth);
+    // Constructor. Create a text for a scene
+    Scene(const string& text) {
+        description = text;
+    }
 
-    void play(Player& player) {
-        cout << "\n" << description << endl;
-        cout << "Your attempt ...\n";
+    // Show the scene to player
+    void showScene() const {
+        cout << "\n " << description << endl;
+    }
 
-        int attempt = 1;
-        if (attempt==1) {
-            cout << "You succesfully dodged. No damage\n";
-        }
-        cout << "You didn't have time to dodge - " << damage << "% Mental health.\n";
-        player.decreaseMentalHealth(damage);
-        }
+
 };
-
 
 
 class PuzzleScene : public Scene {
@@ -187,7 +219,7 @@ private:
 public:
     PuzzleScene(string desc, string q, string answer, int bonus);
     void play(Player& player) {
-        cout << "\n" << description << endl;
+
         cout << "Quiz: " << question << "\nYour answer: ";
 
         string userAnswer;
@@ -215,14 +247,32 @@ int main() {
     player1.sayHello();//Show the greetings
     player1.showStatus();
 
+    // Create scene 1
+    Scene introScene("/Chapter 1. Getting Ready for the Party/ The clock on her phone read 18:45. There was just over an hour left before the party, and she had plenty of time to get ready. She stood in front of the mirror in her room, contemplating which look to choose. The atmosphere was calm, but thoughts about how the evening would go were already swirling in her mind. Her boyfriend would be there, her ex as well, and of course, her best friend. But for some reason, a slight unease was growing.She sifted through her wardrobe. A tight black dress or a loose shirt with jeans? The decision could influence how people perceived her at the party. She decides...");
+    introScene.showScene();
+
+    // create 2 choices
+    Choice choice1("Wear the tight black dress, adding a touch of bright lipstick",1);
+    Choice choice2("Choose the loose shirt with jeans for a more casual look",2);
+
+    // Show choices
+    choice1.showChoice();
+    choice2.showChoice();
 
 
+    int playerChoice;
+    cout << "Choose the choice 1 or 2: ";
+    cin >> playerChoice;
 
+    if (playerChoice == choice1.getChoiceNumber()) {
+        cout << "Now you look wonderful and you will get a lot of compliments\n";
+    } else if (playerChoice == choice2.getChoiceNumber()) {
+        cout << "You look as usual, but you don't care, the main thing is comfort\n";
+    } else {
+        cout << "Wrong answer!\n";
+    }
 
     return 0;
-
-
-
 
 }
 
