@@ -195,17 +195,54 @@ public:
 class Scene {
 private:
     string description;
+    vector<Choice> choices;
+
 public:
     // Constructor. Create a text for a scene
     Scene(const string& text) {
         description = text;
     }
 
-    // Show the scene to player
-    void showScene() const {
-        cout << "\n " << description << endl;
+    //add choices in the scene
+    void addChoice( const string& text,int number) {
+        choices.push_back(Choice(text,number));
     }
 
+    // Show the scene to player
+    void showScene(const string& playerName) const {
+        string modifiedText = description;
+        size_t pos = modifiedText.find("[player]");
+        while (pos != string::npos) {
+            modifiedText.replace(pos,8,playerName);
+            pos = modifiedText.find("[player]",pos+ playerName.length());
+        }
+        cout << "\n " << modifiedText<< endl;
+        for (const Choice& choice: choices) {
+            choice.showChoice();
+        }
+    }
+    int getPlayerChoice() const {
+        int playerChoice;
+        bool validChoice = false;
+
+        //repeat the enter while it still continues to be wrong
+        while (!validChoice) {
+            cout<< "Enter player's choice: ";
+            cin >> playerChoice;
+
+            //Check, is entered choice exit in list of choices?
+            for (const Choice& choice: choices) {
+                if (choice.getChoiceNumber() == playerChoice) {
+                    validChoice = true;
+                    break;
+                }
+            }
+            if (!validChoice) {
+                cout << "Invalid choice!\n" << endl;
+            }
+        }
+        return playerChoice;
+    }
 
 };
 
@@ -248,29 +285,36 @@ int main() {
     player1.showStatus();
 
     // Create scene 1
-    Scene introScene("/Chapter 1. Getting Ready for the Party/ The clock on her phone read 18:45. There was just over an hour left before the party, and she had plenty of time to get ready. She stood in front of the mirror in her room, contemplating which look to choose. The atmosphere was calm, but thoughts about how the evening would go were already swirling in her mind. Her boyfriend would be there, her ex as well, and of course, her best friend. But for some reason, a slight unease was growing.She sifted through her wardrobe. A tight black dress or a loose shirt with jeans? The decision could influence how people perceived her at the party. She decides...");
-    introScene.showScene();
+    Scene introScene1("/Chapter 1. Getting Ready for the Party/ The clock on [player] phone read 18:45. There was just over an hour left before the party, and [player] had plenty of time to get ready. She stood in front of the mirror in her room, contemplating which look to choose. The atmosphere was calm, but thoughts about how the evening would go were already swirling in her mind. Her boyfriend would be there, her ex as well, and of course, her best friend. But for some reason, a slight unease was growing.She sifted through her wardrobe. A tight black dress or a loose shirt with jeans? The decision could influence how people perceived her at the party. She decides...");
+    introScene1.addChoice("Wear the tight black dress, adding a touch of bright lipstick",1);
+    introScene1.addChoice("Choose the loose shirt with jeans for a more casual look",2);
 
-    // create 2 choices
-    Choice choice1("Wear the tight black dress, adding a touch of bright lipstick",1);
-    Choice choice2("Choose the loose shirt with jeans for a more casual look",2);
-
-    // Show choices
-    choice1.showChoice();
-    choice2.showChoice();
+    //Show the full scene with choices and get a choice from player
+    introScene1.showScene(player1.getName());
+    int choice = introScene1.getPlayerChoice();
 
 
-    int playerChoice;
-    cout << "Choose the choice 1 or 2: ";
-    cin >> playerChoice;
-
-    if (playerChoice == choice1.getChoiceNumber()) {
+    if (choice ==1) {
         cout << "Now you look wonderful and you will get a lot of compliments\n";
-    } else if (playerChoice == choice2.getChoiceNumber()) {
+    } else if (choice ==2) {
         cout << "You look as usual, but you don't care, the main thing is comfort\n";
     } else {
         cout << "Wrong answer!\n";
     }
+
+    Scene introScene2("Her apartment was small but cozy. A narrow hallway led to the living room, which at night turned into a bedroom. There was a comfortable couch covered with decorative pillows, a bookshelf with randomly arranged volumes, and a small desk by the window, where a desk lamp cast a soft, warm glow. "
+                      "\n The bathroom was small but tidy, with a mirror above the sink and a shelf filled with bottles of cosmetics. The kitchen, located in the far corner of the apartment near the balcony, was adorned with string lights, creating a dim, almost magical atmosphere."
+                      "\n She approached the console table in the hallway, where a large mirror in a black frame hung. It was positioned so that a small part of it could be seen from the kitchen. She ran her hand across its surface as if trying to catch the reflection of her thoughts and looked at herself."
+                      "\nFinishing with her outfit, she moved on to her hair. Should she curl it for extra volume or leave it straight, fixing it lightly with hairspray? On the table in her room, there were:"
+                      "\nHairspray (left on the console table in front of the mirror) "
+                      "\n A small mirror (lying next to the hairspray)");
+    introScene2.addChoice("Take the hairspray and fix her hairstyle",1);
+    introScene2.addChoice("Take the small mirror and put it in her bag",2);
+    introScene2.showScene(player1.getName());
+
+
+
+
 
     return 0;
 
