@@ -80,13 +80,13 @@ public:
         cout << "Your mental health " << mentalHealth << "%" << endl;
     }
 
-    // Decrease mental health (if < 10%, playues failed)
+    // Decrease mental health (if < 10%, player failed)
     void decreaseMentalHealth(int damage) {
         mentalHealth -= damage;
         if (mentalHealth < 10) {
             cout << "Mental health is critical. You failed..." << endl;
         } else {
-            cout << "Mental health is descreased: " << mentalHealth << "%" << endl;
+            cout << "Mental health is decreased: " << mentalHealth << "%" << endl;
         }
     }
 
@@ -94,7 +94,7 @@ public:
     void takeDamage(int amount) {
         damage += amount; // accumulated damage
         decreaseMentalHealth(amount); // Damage reduces mental health
-        cout << "You got " << amount << " units of damae!\n";
+        cout << "You got " << amount << " units of damage!\n";
     }
 
 
@@ -196,6 +196,8 @@ class Scene {
 private:
     string description;
     vector<Choice> choices;
+    vector<string> availableItems;
+    string specialItemReward;
 
 public:
     // Constructor. Create a text for a scene
@@ -206,6 +208,14 @@ public:
     //add choices in the scene
     void addChoice( const string& text,int number) {
         choices.push_back(Choice(text,number));
+    }
+    //Add items which player can take
+    void availableItem(const string& item) {
+        availableItems.push_back(item);
+    }
+
+    void setSpecialItemReward(const string& item) {
+        specialItemReward = item;
     }
 
     // Show the scene to player
@@ -219,6 +229,13 @@ public:
         cout << "\n " << modifiedText<< endl;
         for (const Choice& choice: choices) {
             choice.showChoice();
+        }
+
+        if (!availableItems.empty()) {
+            cout << "\nYou can take one of items:\n";
+            for (const string& item : availableItems) {
+                cout << "- " << item << endl;
+            }
         }
     }
     int getPlayerChoice() const {
@@ -242,6 +259,37 @@ public:
             }
         }
         return playerChoice;
+    }
+
+    string getPlayerItemChoice() const {
+        if (availableItems.empty()) return ""; // If we dont have items dont do anything
+
+        string chosenItem;
+        bool validItem = false;
+
+        while (!validItem) {
+            cout << "\nEnter the name of item, which you would like to take: ";
+            cin.ignore(); // clear the input buffer`getline`
+            getline(cin, chosenItem);
+
+            for (const string& item : availableItems) {
+                if (item == chosenItem) {
+                    validItem = true;
+                    break;
+                }
+            }
+
+            if (!validItem) {
+                cout << "We dont have such item in list.\n";
+            }
+        }
+
+        return chosenItem;
+    }
+
+    //
+    string getSpecialItemReward() const {
+        return specialItemReward;
     }
 
 };
@@ -302,16 +350,30 @@ int main() {
         cout << "Wrong answer!\n";
     }
 
-    Scene introScene2("Her apartment was small but cozy. A narrow hallway led to the living room, which at night turned into a bedroom. There was a comfortable couch covered with decorative pillows, a bookshelf with randomly arranged volumes, and a small desk by the window, where a desk lamp cast a soft, warm glow. "
-                      "\n The bathroom was small but tidy, with a mirror above the sink and a shelf filled with bottles of cosmetics. The kitchen, located in the far corner of the apartment near the balcony, was adorned with string lights, creating a dim, almost magical atmosphere."
-                      "\n She approached the console table in the hallway, where a large mirror in a black frame hung. It was positioned so that a small part of it could be seen from the kitchen. She ran her hand across its surface as if trying to catch the reflection of her thoughts and looked at herself."
+    Scene introScene2("Her apartment was small but cozy. A narrow hallway led to the living room, which at night turned into a bedroom."
+                      "\nThere was a comfortable couch covered with decorative pillows, a bookshelf with randomly arranged volumes, and a small desk by the window, where a desk lamp cast a soft, warm glow. "
+                      "\nThe bathroom was small but tidy, with a mirror above the sink and a shelf filled with bottles of cosmetics."
+                      "\nThe kitchen, located in the far corner of the apartment near the balcony, was adorned with string lights, creating a dim, almost magical atmosphere."
+                      "\nShe approached the console table in the hallway, where a large mirror in a black frame hung. It was positioned so that a small part of it could be seen from the kitchen."
+                      "\nShe ran her hand across its surface as if trying to catch the reflection of her thoughts and looked at herself."
                       "\nFinishing with her outfit, she moved on to her hair. Should she curl it for extra volume or leave it straight, fixing it lightly with hairspray? On the table in her room, there were:"
                       "\nHairspray (left on the console table in front of the mirror) "
-                      "\n A small mirror (lying next to the hairspray)");
+                      "\nA small mirror (lying next to the hairspray)");
     introScene2.addChoice("Take the hairspray and fix her hairstyle",1);
     introScene2.addChoice("Take the small mirror and put it in her bag",2);
     introScene2.showScene(player1.getName());
 
+    int choice2 = introScene2.getPlayerChoice();
+
+    Scene introScene3("Running her fingers through her hair, she checked her appearance one last time."
+                      "\nA message alert sounded on her phone. (It was from her boyfriend,whom she started dating on Valentine's day: "
+                      "\n'Are you getting ready? I can't wait to see you.'"
+                      "\nSomething in the message made her feel slightly uneasy. Was there too much eagerness in it? She decides...");
+    introScene3.addChoice("Reply: 'Yes, I'll be there soon!' and continue getting ready",1);
+    introScene3.addChoice("Not reply immediately, pretending to be busy",2);
+    introScene3.showScene(player1.getName());
+
+    int choice3 = introScene3.getPlayerChoice();
 
 
 
